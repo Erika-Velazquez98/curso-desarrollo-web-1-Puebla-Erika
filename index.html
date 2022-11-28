@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant poblano</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./imagenes/comida-puebla.jpg" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -14,7 +16,7 @@
                     <a href="./index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="./quienes-somos.html">Quienes somos</a>
+                    <a id="quienessomos"href="./quienes-somos.html">Quienes somos</a>
                 </li>
                 <li>
                     <a href="./nuestros-productos.html">Nuestros productos
@@ -28,14 +30,24 @@
             </ul>
         </nav>
         <div>
-            <img src="./imagenes/comida-puebla.jpg" alt="Logo restaurant poblano">
+            <img id="logoIndex" src="./imagenes/comida-puebla.jpg" alt="Logo restaurant poblano">
         </div>
     </header>
     <main>
-       <section></section>
+       <section class="seccionH1">
+        <h1 class="claseH1" id="tituloIndex">BIENVENIDO AL RESTAURANT POBLANO</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam debitis impedit cupiditate quasi officia qui adipisci laborum quae, ea at natus aliquam nulla inventore molestias ipsa repudiandae, quisquam modi quibusdam.</p>
+       </section>
     </main>
-    <footer>
+    <footer class="footerIndex">
         <p>Restaurant poblano --- Todos los derechos reservados</p>
-    </footer>
+        <div>
+            <a href="https://es-la.facebook.com/"
+        target="_blank">
+        <iconify-icon icon="ri:facebook-box-fill"></iconify-icon>
+        </a> 
+        </div>
+    </footer> 
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </body>
 </html>
