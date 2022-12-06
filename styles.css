@@ -9,10 +9,24 @@
 }
 
 #logoIndex {
-    width: 15rem;
-    height: 10rem;
-    border-radius: 60%;
-    margin: 4 rem;
+    width: 20rem;
+    height: 17rem;
+    border-radius: 75%;
+    margin: 1 rem;
+    border-top: 2;
+}
+
+#carroIndex {
+    width: 6rem;
+    height: 4rem;
+    border-radius: 6%;
+    border-top: 1px;
+}
+
+#eslogan {
+    border-color: blue;
+    text-align: justify;
+    background-color: brown;
 }
 
 .seccionH1 {
@@ -20,6 +34,26 @@
     border-color: 1px solid gold;
     text-align: justify;
     color: darkolivegreen;
+}
+
+.navbar {
+   display: flex;
+   gap: 1rem;
+   border: 1px;
+   border-style: solid;
+   border-color: rgb(48, 25, 179);
+   list-style: none;
+   justify-content: center; 
+}
+
+.navbar li {
+    border: 3px;
+    flex-shrink: 1;
+    flex-basis: 80px;
+    border-radius: 5px 2px;
+    border-style: solid;
+    border-color: blue;
+    flex-shrink: 1;
 }
 
 h1 {
@@ -36,9 +70,20 @@ p {
     border-color: hotpink;
 }
 
+p{
+text-align: left;
+display: inline;
+}
+
 .footerIndex {
     background-color: palegreen;
     color: green;
     font-size: 35px;
     border-radius: 80%;
 }
+
+.claseeri {
+    position: sticky;
+    top: 10px; left: 125px;
+}
+
