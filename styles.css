@@ -9,8 +9,7 @@
 }
 
 #logoIndex {
-    width: 20rem;
-    height: 17rem;
+    width: 30rem;
     border-radius: 75%;
     margin: 1 rem;
     border-top: 2;
@@ -27,6 +26,10 @@
     border-color: blue;
     text-align: justify;
     background-color: brown;
+}
+
+body {
+    background-color: beige;
 }
 
 .seccionH1 {
@@ -87,3 +90,14 @@ display: inline;
     top: 10px; left: 125px;
 }
 
+@media only screen and (max-width: 320px) and (max-width: 500px) {
+    body {
+        background-color: aqua;
+    }
+    #logoIndex {
+        width: 2rem;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+}
